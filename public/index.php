@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701978640713">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701978342228">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701978640713" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701978342228" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -55,14 +55,46 @@ $classContact = '';
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/img/Slider1.png" class="d-block img-slider" alt="...">
-        <div class="inf-company onSlider">
-
+        <div class="intro onSlider">
+          <div class="experience">
+            <div class="box-experience">
+              <i>Años de Experiencia</i>
+              <br />
+              <b class="num" data-val="12">+00</b>
+            </div>
+            <div class="box-experience">
+              <i>Experiencia en Países</i>
+              <br />
+              <b class="num" data-val="6">0</b>
+            </div>
+            <div class="box-experience">
+              <i>Clientes en D365BC</i>
+              <br />
+              <b class="num" data-val="28">+00</b>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/Slider2.png" class="d-block img-slider" alt="...">
-        <div class="prueba2 onSlider">
-          <p>hola mundo html</p>
+        <div class="extra onSlider">
+          <div class="experience">
+            <div class="box-experience">
+              <i>Años de Experiencia</i>
+              <br />
+              <b class="num" data-val="12">+00</b>
+            </div>
+            <div class="box-experience">
+              <i>Experiencia en Países</i>
+              <br />
+              <b class="num" data-val="6">0</b>
+            </div>
+            <div class="box-experience">
+              <i>Clientes en D365BC</i>
+              <br />
+              <b class="num" data-val="28">+00</b>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item">

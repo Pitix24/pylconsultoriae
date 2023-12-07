@@ -156,28 +156,37 @@ section {
   font-size: 2rem;
 }
 
+/* SLIDER */
 .onSlider {
-  /* position: absolute; */
-  position: relative;
-
-  /* z-index: 5;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-}
-
-.counter-content {
-  position: relative;
-
-  z-index: 5;
+  position: absolute;
+  z-index: 2;
   width: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
+.counter-content {
   top: 80%;
   left: 80%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra {
+  top: 80%;
+  left: 50%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  top: 80%;
+  left: 20%;
   margin-right: 10%;
   display: flex;
   justify-content: center;
@@ -269,6 +278,7 @@ section {
   background-size: 30%;
   margin: 0 -150px;
 }
+
 #companies-slider .container #slider-img-6,
 #companies-slider .container #slider-img-7,
 #companies-slider .container #slider-img-9 {
@@ -400,6 +410,7 @@ section {
 .container #img-5 {
   background-image: url(../img/partners/professional.png);
 }
+
 .container #img-6 {
   background-image: url(../img/partners/wau.png);
 }
@@ -467,6 +478,7 @@ section {
 
 /* MEDIA / RESPONSIVE */
 @media (max-width: 1440px) {
+
   /* GEN / HEADER / SECTION HOME */
   .home-content {
     max-width: 50rem;
@@ -486,10 +498,12 @@ section {
 }
 
 @media (max-width: 1110px) {
+
   #companies-slider .container #slider-img-8,
   #companies-slider .container #slider-img-10 {
     margin: 0 -80px;
   }
+
   #companies-slider .container #slider-img-6,
   #companies-slider .container #slider-img-7,
   #companies-slider .container #slider-img-9 {
@@ -504,7 +518,18 @@ section {
 }
 
 @media (max-width: 768px) {
+
   /* GEN / HEADER / SECTION HOME */
+  .counter-content,
+  .extra,
+  .intro {
+    top: auto;
+    left: auto;
+    width: 100%;
+    position: relative;
+    transform: none;
+  }
+
   .experience {
     width: 100%;
   }
@@ -554,6 +579,7 @@ section {
 }
 
 @media (max-width: 425px) {
+
   /* GEN / HEADER / SECTION HOME */
   #companies-slider .container .wrapper-holder {
     grid-template-columns: repeat(26, 40%);
@@ -640,7 +666,19 @@ section {
   }
 }
 
+@media (max-width: 375px) {
+
+  /* GEN / HEADER / SECTION HOME */
+  .home-sci {
+    width: 95%;
+    margin-left: -2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 320px) {
+
   /* GEN / HEADER / SECTION HOME */
   .btn-box {
     width: 25rem;
